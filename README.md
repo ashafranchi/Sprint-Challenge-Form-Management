@@ -38,16 +38,16 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
 
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] Navigate to the BE folder in this repository (this is where your server is located) from the command line, install the dependencies, and run `yarn start` or `npm start` to spin up the server provided for you.
-- [ ] In the terminal, navigate back to the main folder, then into the `client` folder.
-- [ ] Create your React app here.
+- [x] Implement the project on this Branch, **committing progress & changes often.**
+- [x] Push commits: `git push origin <firstName-lastName>`.
+- [x] Navigate to the BE folder in this repository (this is where your server is located) from the command line, install the dependencies, and run `yarn start` or `npm start` to spin up the server provided for you.
+- [x] In the terminal, navigate back to the main folder, then into the `client` folder.
+- [x] Create your React app here.
 
 Follow these steps for completing your project:
 
@@ -59,11 +59,11 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] A registration form built with formik - include inputs for a `username` and a `password`
-- [ ] Form validation using Yup
-- [ ] At least one class component (I would challenge you to make the form a class!)
-- [ ] Tests for at least one element, one event, and one unit test for a function
-- [ ] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
+- [x] A registration form built with formik - include inputs for a `username` and a `password`
+- [x] Form validation using Yup
+- [x] At least one class component (I would challenge you to make the form a class!)
+- [x] Tests for at least one element, one event, and one unit test for a function
+- [x] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
 
 ```js
 {
@@ -82,9 +82,9 @@ and the response object will look like this:
 }
 ```
 
-- [ ] A GET request made to `http://localhost:5000/api/restricted/data` to retrieve the data
+- [x] A GET request made to `http://localhost:5000/api/restricted/data` to retrieve the data
 
-- [ ] Map over the array of objects you recieve and render some or all of it's information to the DOM.
+- [x] Map over the array of objects you recieve and render some or all of it's information to the DOM.
 
 ## Stretch Problems
 
