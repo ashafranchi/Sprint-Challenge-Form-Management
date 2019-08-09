@@ -16,7 +16,6 @@ const UserForm = ({errors, touched, values, status}) => {
     return(
         <div className="format">
             <Form>
-                <h2>App Registration</h2>
                 <h3>Username</h3>
                 <Field type="text" name="username"/>
                 {touched.name && errors.name && <p>{errors.name}</p>}
