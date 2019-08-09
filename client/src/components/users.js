@@ -4,11 +4,11 @@ export default function Users({ props }) {
 console.log(props);
     return(
         <div className="container">
-            <ul>
-            <h3>Name: {props.name}</h3>
-            <h3>Course: {props.course}</h3>
-            <h3>Technique: {props.technique}</h3>
-            <h3>Ingredients: {props.ingredients}</h3>
+            <ul data-testid="ulTest">
+            <h4>Recipe Name: {props.name}</h4>
+            <h4>Course: {props.course}</h4>
+            <h4>Technique: {props.technique}</h4>
+            <h4>Ingredients: {props.ingredients}</h4>
             </ul>
         </div>
     )

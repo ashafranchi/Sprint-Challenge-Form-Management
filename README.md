@@ -61,8 +61,8 @@ Your finished project must include all of the following requirements:
 
 - [x] A registration form built with formik - include inputs for a `username` and a `password`
 - [x] Form validation using Yup
-- [ ] At least one class component (I would challenge you to make the form a class!)
-- [ ] Tests for at least one element, one event, and one unit test for a function
+- [x] At least one class component (I would challenge you to make the form a class!)
+- [x] Tests for at least one element, one event, and one unit test for a function
 - [x] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
 
 ```js
@@ -84,7 +84,7 @@ and the response object will look like this:
 
 - [x] A GET request made to `http://localhost:5000/api/restricted/data` to retrieve the data
 
-- [ ] Map over the array of objects you recieve and render some or all of it's information to the DOM.
+- [x] Map over the array of objects you recieve and render some or all of it's information to the DOM.
 
 ## Stretch Problems
 

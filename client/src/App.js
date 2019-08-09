@@ -32,7 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h2 className="Header">App Registration</h2>
+        <h2 className="Header" data-testid="headerTest">App Registration</h2>
         <FormikForm />
         <div className="Food">
           {this.state.users.map(item => (
